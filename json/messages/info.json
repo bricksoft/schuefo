@@ -1,0 +1,11 @@
+{
+    "message": "Was ist SchüFo?<br>SchüFo ist ein Schülerprojekt. Dieses Projekt soll Schülern die Möglichkeit bieten, sich über die Schule, Hausaufgaben, Lehrer, Zeugnisse und vieles mehr zu unterhalten. Außerdem soll das Projekt als Plattform für einen besseren Informationsaustausch dienen.",
+    "title": "SchüFo - Das Schülerforum",
+    "buttons": {
+        "close": {
+            "label": "Schließen",
+            "className": "btn-success",
+            "callback": null
+        }
+    }
+}

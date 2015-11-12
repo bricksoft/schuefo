@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Ladebildschirm",
+    "author":"Petr Tichy",
+    "description": "Ein animierter Ladebildschirm, welcher während des Siteloads eingeblendet wird.",
+    "source": "https://ihatetomatoes.net/create-custom-preloading-screen/"
+  },
+  {
+    "title": "jquery",
+    "author":"John Resig",
+    "description": "Das jQuery Framework wird welweit auf vielen Webseiten genutzt, um JavaScript einfacher zu machen.",
+    "source": "https://jquery.com/"
+  },
+  {
+    "title": "twitter bootstrap",
+    "author":"twitter",
+    "description": "Das twitter-bootstrap wurde von Twitter als einheitliches Mobil- und Desktoplayout entwickelt und bietet eine gute Websitebasis, welche auf fast allen Browsern funktioniert.",
+    "source": "http://getbootstrap.com/"
+  },
+  {
+    "title": "jQuery Hotkeys Plugin",
+    "author":"John Resig, ",
+    "description": "Das jQuery Hotkeys Plugin bietet die Möglichkeit Hotkeys mithilfe von jQuery festzulegen.",
+    "source": "https://github.com/jeresig/jquery.hotkeys"
+  },
+  {
+    "title": "Google oAuth",
+    "author":"Google",
+    "description": "Das Google oAuth Framework wird benutzt um unsere Benutzer anzumelden, indem sie sich mithilfe eines Google Accounts registrieren.",
+    "source": "https://developers.google.com/identity/"
+  },
+  {
+    "title": "Lobster Font",
+    "author":"Romening Silva",
+    "description": "Lobster Schriftart für den Seitentitel-Schriftzug \"Schülerforum\"",
+    "source": "http://www.impallari.com/lobster/"
+  },
+  {
+    "title": "BootBox jQuery Plugin",
+    "author":"Nick Payne",
+    "description": "Bootbox ist die jQuery Version einer javascipt messagebox - nur besser. Wir nutzen es, um alle alerts und Meldungen darzustellen.",
+    "source": "https://github.com/makeusabrew/bootbox"
+  },
+  {
+    "title": "Breadcrumbs",
+    "author":"Ashley Ford",
+    "description": "Seitenindentation in Einzelschritten",
+    "source": "http://papermashup.com/how-to-display-breadcrumbs-on-your-site-using-php/"
+  },
+  {
+    "title": "UTF8 encode array/object structure in PHP",
+    "author":"Oscar Broman",
+    "description": "Rekursives Array / Object Encoding (PHP)",
+    "source": "https://gist.github.com/oscar-broman/3653399"
+  }
+]

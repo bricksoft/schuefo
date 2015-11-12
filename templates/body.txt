@@ -1,0 +1,12 @@
+</div>
+<span id="branding" class="bottom-footer no-js"><p>Handcrafted with <span class="glyphicon glyphicon-heart" style="color:darkred;"></span> in Germany.</p></span>
+<script>
+document.getElementById("loader-wrapper").classList.remove("no-js");
+document.getElementById("content").classList.remove("no-js");
+document.getElementById("branding").classList.remove("no-js");
+</script>
+<noscript>Um diese Seite richtig darzustellen, benötigst du JavaScript. Bitte überprüfe, ob dies in deinem Browser angeschaltet ist.<br/>Eine gute Anleitung hierfür findest du <a href="http://www.enable-javascript.com/de/">hier</a>.</noscript>
+<script src="/assets/init.js" async></script>
+
+</body>
+</html>

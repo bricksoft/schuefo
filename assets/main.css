@@ -1,0 +1,63 @@
+.bottom-footer{
+	position:fixed;
+	z-index:100;
+	bottom:0;
+	left:0;
+	width:100%;
+	margin-bottom: 0;
+	text-align:center;
+	filter: alpha(opacity=90); /* internet explorer */
+    -khtml-opacity: 0.9;      /* khtml, old safari */
+    -moz-opacity: 0.9;       /* mozilla, netscape */
+    opacity: 0.9;           /* fx, safari, opera */
+	color: black;
+	background-color: #eee;
+}
+.msg_box{
+	z-index:100;
+	border:5px outset red;
+	display: inline-block;
+	padding: 30px 100px;
+	position:relative;
+	left:35%;
+	right:35%;
+	margin: 50px auto 50px;
+	text-align:center;
+	
+}
+@font-face {
+    font-family: 'lobster';
+    src: url('/fonts/Lobster.otf');
+}
+.headline {
+    font-family: 'lobster';
+}
+
+.nw {
+    white-space: nowrap
+}
+.jumbotron {
+    padding-left:5%;
+    padding-right:5%;
+}
+.bigmsg{
+    width:100%;
+}
+/* style scrollbar */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}

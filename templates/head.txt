@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head background>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id" content="980397898291-eeild88joupljj19o23pnmihebq10nii.apps.googleusercontent.com">
+<title>Schülerforum</title>
+<link rel="stylesheet" href="/assets/loader.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<div id="loader-wrapper" class="no-js">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<div id='login-btn-persistant' style='display:none'></div>
+<div id="content" class="no-js">
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand headline" href="/">Schülerforum</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="dropdown">
+<a id="username" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benutzer<span class="caret"></span></a>
+<ul class="dropdown-menu" id="usermenu">
+<li class="dropdown-header">Benutzermenü</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a id="info" href="#" onclick="showInfo();">Info</a></li>
+<li><a id="info" href="#" onclick="showThirdparty();">Genutzte Software</a></li>
+<li><a id="info" href="#" onclick="showDatenschutz();">Datenschutz</a></li>
+<li><a id="info" href="#" onclick="showImpressum();">Impressum</a></li>
+</ul>
+</li>
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container-fluid -->
+</nav>

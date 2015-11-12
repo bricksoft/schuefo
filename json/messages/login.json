@@ -1,0 +1,11 @@
+{
+    "message": "<div id=\"login-btn\"></div>",
+    "title": "SchüFo - Das Schülerforum",
+    "buttons": {
+        "close": {
+            "label": "Schließen",
+            "className": "btn-error",
+            "callback": null
+        }
+    }
+}

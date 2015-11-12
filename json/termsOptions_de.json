@@ -1,0 +1,7 @@
+[
+    {"name":"title","title":"Akzeptieren Sie unsere Servicebedingungen?"},
+    {"name":"tos_warn","tos_warn":"Durch das Klicken auf \"Akzeptieren\" bestätigen Sie dass Sie mit <em>allen</em> Bestimmungen einverstanden sind:"},
+    {"name":"agree_btn","agree_btn":"Akzeptieren"},
+    {"name":"cancel_btn","cancel_btn":"Abbrechen"},
+    {"name":"full","full":"/tos"}
+]

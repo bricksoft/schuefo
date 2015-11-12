@@ -1,0 +1,50 @@
+<?php
+$uri = rtrim(ltrim($_SERVER['REQUEST_URI'],"/"),"/");
+?>
+<div class="jumbotron" style="min-height:80%">
+    <p>Startseite</p>
+    <hr>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="breadcrumb" id="bc">
+                    </ul>
+                    
+                    <div class="table-responsive" draggable="true">
+                        <table class="table">
+                            <thead>
+                                    <tr>
+                                        <th>Themen</th>
+                                    </tr>
+                                </thead>
+                            <tbody id="themen_list" data-forum="<?php echo $uri; ?>">
+                                <tr>
+                                    <td>Zum ansehen bitte <a onclick="showLogin();">anmelden</a>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <hr>
+                    
+                    <div class="table-responsive" draggable="true">
+                        <table class="table">
+                            <thead>
+                                    <tr>
+                                        <th>Posts</th>
+                                    </tr>
+                                </thead>
+                            <tbody id="posts_list" data-forum="<?php echo $uri; ?>">
+                                <tr>
+                                    <td>Zum ansehen bitte <a onclick="showLogin();">anmelden</a>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+         </div>
+    </div>
+    </div>
